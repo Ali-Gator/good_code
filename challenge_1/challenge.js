@@ -25,7 +25,7 @@ function getPersona(firstName, lastName, zodiacSign, birthDate, likesSmoothie, h
         personaScore += 10;
     }
 
-    if (zodiacSign === 'Scorpio' || zodiacSign === 'Gemini' || zodiacSign === 'Virgo' || zodiacSign === 'Leo') {
+    if (zodiacSign === "Scorpio" || zodiacSign === 'Gemini' || zodiacSign === 'Virgo' || zodiacSign === 'Leo') {
         personaScore += 50;
     } else {
         personaScore += 10;
